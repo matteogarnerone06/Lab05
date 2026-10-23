@@ -1,6 +1,6 @@
 from strumento import Strumento
 from prestito import Prestito
-
+import operator
 
 class DepositoStrumenti:
     def __init__(self, nome, responsabile):
